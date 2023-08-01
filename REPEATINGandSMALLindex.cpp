@@ -36,12 +36,3 @@ int main(){
     }
     return 0;
 }
-
-while(j<n && (sum+=a[j]<=s)){
-        sum+=a[j];
-        j++;
-    }
-
-    if(sum==s){
-        cout<<i+1<<" "<<j<<endl;
-    }
